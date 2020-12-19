@@ -160,10 +160,5 @@ async def on_message(message):
         await asyncio.sleep(60)
         await message.channel.delete()
 
-        """ 수정금지
-            dev = 봉순#6959, id = 713666830908129290
-        """
-
-
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)

@@ -33,7 +33,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith('=.banner'):
+    if message.content.startswith('.banner'):
         channelname = message.content[4:]
         bannerrole = discord.utils.get(message.guild.roles, name=banner_role)
 

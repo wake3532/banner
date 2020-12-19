@@ -1,6 +1,7 @@
 import discord
 import asyncio
 import sqlite3
+import os
 
 client = discord.Client()
 
